@@ -1,0 +1,70 @@
+body {
+    background-color: #e8ce81;
+  }
+  h1, h5 {
+    font-family: Arial, sans-serif;
+    color: #333333;
+  }
+  
+  p {
+    font-family: Verdana, sans-serif;
+    color: #555555;
+  }
+  .jumbotron {
+    padding: 4em;
+    margin-bottom: 2em;
+  }
+  
+  .card {
+    margin: 1em;
+  }
+  img {
+    padding: 1em;
+    width: 100%;
+    height: auto;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #1e90ff;
+  }
+  
+  .btn:hover {
+    background-color: #1e90ff;
+    color: white;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .card {
+    animation: fadeIn 1s;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: 18%;
+    margin: 4%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+  .collapse {
+    display: none;
+  }
+  
+  .collapse.show {
+    display: block;
+  }
+  
